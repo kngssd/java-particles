@@ -21,7 +21,7 @@ public class Main extends PApplet {
 
     @Override
     public void draw() {
-        background(100);
+        background(200);
         for (Spark s : sparks) {
             s.display();
         }
